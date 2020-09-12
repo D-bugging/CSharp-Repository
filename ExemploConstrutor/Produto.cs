@@ -8,8 +8,8 @@ namespace ExemploConstructor
     class Produto
     {
         private string _nome;
-        private double Preco { get; private set; }
-        private int Quantidade { get; private set; }
+        public double Preco { get; private set; }
+        public int Quantidade { get; private set; }
 
         #region Construtores e sobrecarga
         public Produto ()
