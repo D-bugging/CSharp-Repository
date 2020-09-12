@@ -8,23 +8,23 @@ namespace ExemploConstructor
     class Produto
     {
         private string _nome;
-        private double _preco { get; set; }
-        private int _quantidade { get; set; }
+        private double Preco { get; private set; }
+        private int Quantidade { get; private set; }
 
         #region Construtores e sobrecarga
         public Produto ()
         {
-            _quantidade = 0;
+            Quantidade = 0;
         } // Default Constructor
         public Produto(string nome, double preco) : this() // : this() -> reaproveita atributos
         {
             _nome = nome;
-            _preco = preco;
-            _quantidade = 5; // Por padrão Quantidade é zero, mas pode-se adquirir um valor default
+            Preco = preco;
+            Quantidade = 5; // Por padrão Quantidade é zero, mas pode-se adquirir um valor default
         }
         public Produto(string nome, double preco, int quantidade) : this(nome, preco)
         {
-            _quantidade = quantidade;
+            Quantidade = quantidade;
         }
         #endregion
 
@@ -40,24 +40,24 @@ namespace ExemploConstructor
 
         public double ValorTotalEstoque()
         {
-            return _preco * _quantidade;
+            return Preco * Quantidade;
         }
         public void AdicionarProdutos(int quantidade)
         {
-            _quantidade += quantidade;
+            Quantidade += quantidade;
         }
         public void RemoverProdutos(int quantidade)
         {
-            _quantidade -= quantidade;
+            Quantidade -= quantidade;
         }
 
         public override string ToString()
         {
             return _nome
                 + ", $ "
-                + _preco.ToString("F2", CultureInfo.InvariantCulture)
+                + Preco.ToString("F2", CultureInfo.InvariantCulture)
                 + ", "
-                + _quantidade
+                + Quantidade
                 + " unidades, Total: $ "
                 + ValorTotalEstoque().ToString("F2", CultureInfo.InvariantCulture);
         }
