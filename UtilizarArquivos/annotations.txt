@@ -1,7 +1,7 @@
 File e FileInfo são duas classes para utilizar arquivos.
 
-Namespare System.io
-using System.io;
+Namespace System.IO
+using System.IO;
 IOException
 
 * File
