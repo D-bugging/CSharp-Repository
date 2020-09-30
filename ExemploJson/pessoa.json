@@ -1,0 +1,30 @@
+﻿[
+  {
+    "Nome": "Franklin Clinton",
+    "Idade": 25,
+    "Empresa": "Bank Assault",
+    "Endereco": [
+      {
+        "Logradouro": "Rua dos Bobos",
+        "Numero": 0,
+        "Bairro": "Grove Street",
+        "Cidade": "Los Santos",
+        "UF": "SA"
+      }
+    ]
+  },
+  {
+    "Nome": "Trevor Philips",
+    "Idade": 45,
+    "Empresa": "Trevor Philips Industries",
+    "Endereco": [
+      {
+        "Logradouro": "Trailler",
+        "Numero": 154,
+        "Bairro": "Sonar",
+        "Cidade": "Vancouver",
+        "UF": "CD"
+      }
+    ]
+  }
+]
