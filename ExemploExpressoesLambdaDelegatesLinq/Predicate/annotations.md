@@ -1,0 +1,1 @@
+Predicate (System) representa um método que recebe um objeto do tipo T e retorna um valor booleano.
