@@ -1,0 +1,5 @@
+Exemplo de request web para consumir uma API, obtendo o resultado em JSON.
+
+System.Net
+System.IO
+Newtonsoft.Json
