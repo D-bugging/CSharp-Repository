@@ -1,0 +1,1 @@
+Exemplo de recursividade lendo um diretório com arquivos.
